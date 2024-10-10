@@ -10,9 +10,6 @@ from reportlab.lib.styles import ParagraphStyle
 from findSize import findSize
 from findBreak import findBreak
 
- 
-#print(documento.paragraphs[0].runs[0].font.name) # descobrir a fonte
-
 
 def createPDF():
     choiceDoc = input("Insira o endereço do arquivo: ").replace('"',"")
